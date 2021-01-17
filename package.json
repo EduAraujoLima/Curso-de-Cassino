@@ -2,7 +2,8 @@
   "name": "curso-cassino",
   "version": "0.1.0",
   "engines": {
-    "node": "12.x"
+    "node": "12.19.0",
+    "npm": "6.14.8"
   },
   "private": true,
   "dependencies": {
