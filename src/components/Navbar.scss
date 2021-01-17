@@ -1,0 +1,29 @@
+@import '../assets/colors.scss';
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: $purple;
+    border: none;
+    height: 80px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    position: sticky;
+
+    .img-logo {
+        height: 60px;
+    }
+
+    .contacts {
+        color: white;
+        margin-left: auto;
+        list-style-type: none;
+
+        .contact-info {
+            font-size: 14pt;
+            display: inline;
+            margin-right: 25px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@import '../assets/colors.scss';
+
+.card {
+    width: 20%;
+    height: auto;
+    -webkit-box-shadow: 5px 5px 0px 2px $medium-purple; 
+    box-shadow: 5px 5px 0px 2px $medium-purple;
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+        .desc {
+            font-size: 24pt;
+            color: $medium-purple;
+            text-align: center;
+        }
+    }
+}
+
+.card:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 0 0 $medium-purple;
+    -webkit-box-shadow: 5px 5px 0px 2px $medium-purple; 
+    box-shadow: 5px 5px 0px 2px $medium-purple;
+}

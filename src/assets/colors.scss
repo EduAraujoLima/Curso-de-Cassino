@@ -1,0 +1,33 @@
+$purple: rgb(139, 56, 134);
+$medium-purple: rgb(187, 96, 181);
+$light-purple: rgb(240, 230, 239);
+$dark-purple: rgb(83, 22, 79);
+$white: white;
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 $medium-purple;
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px $medium-purple;
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 $medium-purple;
+    }
+}
+
+@keyframes h1-pulse {
+    0% {
+        transform: scale(1.25);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
