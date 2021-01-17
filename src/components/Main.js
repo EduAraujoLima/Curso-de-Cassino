@@ -17,7 +17,7 @@ export default function main() {
             </div>
             <div className='description'>
                 <h1>
-                   Aprenda de uma vez por todas com se tornar um milionário no GTA ONLINE.
+                   Aprenda de uma vez por todas como se tornar um milionário no GTA ONLINE.
                 </h1>
                 <h4>
                     De forma totalmente rápida, legitima e sem chances de banimento com ganhos de até
