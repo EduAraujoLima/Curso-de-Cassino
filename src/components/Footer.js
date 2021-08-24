@@ -16,12 +16,15 @@ export default class Footer extends React.Component {
                 <div className="partner-list">
                     <img
                         src={pixelEmporium}
+                        alt="fliperama"
                     />
                     <img
                         src={qub3d}
+                        alt="fliperama"
                     />
                     <img
                         src={videoggedon}
+                        alt="fliperama"
                     />
                 </div>
             </div>
